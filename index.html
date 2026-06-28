@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>אקסיו נדל״ן | קרקע פרטית בטאבו בזכרון יעקב</title>
-  <meta name="description" content="קרקע פרטית רשומה בטאבו בזכרון יעקב החל מ-159,000 ₪, עם פוטנציאל עליית ערך על פי דוח שמאי תקן 22. הקרקע אינה זמינה לבנייה מיידית." />
+  <meta name="description" content="קרקע פרטית רשומה בטאבו בזכרון יעקב החל מ-159,000 ₪, עם מחיר קרקע בתרחיש הפשרה של 1.6 מיליון ₪ על פי דוח שמאי תקן 22. הקרקע אינה זמינה לבנייה מיידית." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -65,7 +65,7 @@
     .hero-grid{display:grid;grid-template-columns:1.02fr .72fr;gap:42px;align-items:center}
     .hero h1{font-size:clamp(40px,5.5vw,74px);line-height:.98;margin:20px 0 18px;color:#fff;letter-spacing:-.055em;max-width:760px}
     .hero h1 span{color:var(--accent)}
-    .hero-text{font-size:clamp(19px,2.1vw,25px);color:#eafbff;max-width:760px;margin:0}
+    .hero-text{font-size:clamp(19px,2.1vw,25px);color:#eafbff;max-width:760px;margin:0}.hero-snapshot{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:24px 0 0;max-width:760px}.snapshot-card{background:rgba(255,255,255,.13);border:1px solid rgba(127,227,255,.26);border-radius:22px;padding:18px 20px}.snapshot-card small{display:block;color:#dff8ff;font-weight:900;font-size:16px;margin-bottom:4px}.snapshot-card b{display:block;color:#fff;font-weight:900;font-size:clamp(30px,3.5vw,48px);line-height:1}.snapshot-card.highlight b{color:var(--accent)}.snapshot-note{grid-column:1/-1;color:#f4fdff;font-weight:900;font-size:16px;background:rgba(0,37,48,.48);border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:8px 14px;width:max-content;max-width:100%}
     .hero-note{display:inline-flex;margin-top:18px;background:rgba(0,37,48,.62);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:8px 13px;color:#f8fcff;font-weight:800;font-size:14px}
     .trust-row{display:flex;flex-wrap:wrap;gap:10px;margin:25px 0 0}
     .trust-chip{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:10px 14px;font-weight:900;color:#f7fdff}
@@ -87,7 +87,7 @@
 
     .animate-on-scroll{opacity:0;transform:translateY(18px);transition:.55s ease}.animate-on-scroll.visible{opacity:1;transform:none}
     @media (max-width:980px){.nav{display:none}.hero-grid,.about-wrap,.final-cta{grid-template-columns:1fr}.hero{min-height:auto;padding:48px 0 78px}.hero-form{margin-top:8px}.stats-grid{grid-template-columns:repeat(2,1fr)}.cards4{grid-template-columns:repeat(2,1fr)}.compare{grid-template-columns:1fr}.compare-arrow{transform:rotate(-90deg)}.proof-stats{grid-template-columns:1fr}.sticky-mobile{display:block}.section{padding:64px 0}.footer{padding-bottom:94px}.dudi{height:320px}}
-    @media (max-width:640px){.container{width:min(100% - 24px,1160px)}.topbar-inner{height:66px}.logo{height:46px}.header-cta{font-size:14px;padding:9px 12px}.hero h1{font-size:38px}.hero-text{font-size:18px}.hero-form{padding:20px;border-radius:24px}.stats-grid,.cards4{grid-template-columns:1fr}.title{font-size:31px}.stat,.info-card{padding:22px}.final-cta{padding:28px}.compare-card{min-height:140px}.footer-bottom{display:block}.footer-legal{margin-top:12px}.accessibility-float{left:10px;bottom:calc(var(--sticky-cta-height,0px) + 14px + env(safe-area-inset-bottom))}.accessibility-panel{left:10px;bottom:calc(var(--sticky-cta-height,0px) + 66px + env(safe-area-inset-bottom))}}
+    @media (max-width:640px){.container{width:min(100% - 24px,1160px)}.hero-snapshot{grid-template-columns:1fr}.snapshot-note{width:100%;border-radius:18px;text-align:center}.topbar-inner{height:66px}.logo{height:46px}.header-cta{font-size:14px;padding:9px 12px}.hero h1{font-size:38px}.hero-text{font-size:18px}.hero-form{padding:20px;border-radius:24px}.stats-grid,.cards4{grid-template-columns:1fr}.title{font-size:31px}.stat,.info-card{padding:22px}.final-cta{padding:28px}.compare-card{min-height:140px}.footer-bottom{display:block}.footer-legal{margin-top:12px}.accessibility-float{left:10px;bottom:calc(var(--sticky-cta-height,0px) + 14px + env(safe-area-inset-bottom))}.accessibility-panel{left:10px;bottom:calc(var(--sticky-cta-height,0px) + 66px + env(safe-area-inset-bottom))}}
   </style>
 </head>
 <body>
@@ -111,8 +111,13 @@
       <div class="container hero-grid">
         <div class="animate-on-scroll">
           <span class="eyebrow">אקסיו נדל״ן | זכרון יעקב</span>
-          <h1>מ-159,000 ₪ ל-<span>1.6 מיליון ₪?</span><br>זו לא שגיאת הקלדה.</h1>
-          <p class="hero-text">כרטיס הכניסה שלכם לשוק הנדל"ן בזכרון יעקב! קרקע פרטית רשומה בטאבו, עם פוטנציאל עליית ערך משמעותי על פי דוח שמאי תקן 22. קונים היום במחיר נגיש - וממתינים להפשרה.</p>
+          <h1>תשקיעו היום<br><span>בזכרון יעקב של מחר</span><br>קרקע פרטית ב-159,000 ₪ בלבד!</h1>
+          <p class="hero-text">כרטיס הכניסה שלכם לשוק הנדל"ן בזכרון יעקב! קרקע פרטית רשומה בטאבו, מחיר הקרקע בתרחיש הפשרה עומד על 1.6 מיליון ₪ על פי דוח שמאי תקן 22. קונים היום במחיר נגיש - וממתינים להפשרה.</p>
+          <div class="hero-snapshot" aria-label="נתוני מחיר מרכזיים">
+            <div class="snapshot-card"><small>מחיר הקרקע</small><b>159,000 ₪</b></div>
+            <div class="snapshot-card highlight"><small>מחיר הקרקע בתרחיש הפשרה</small><b>1.6 מיליון ₪!</b></div>
+            <div class="snapshot-note">ע״פ דו״ח שמאי תקן 22</div>
+          </div>
           <div class="trust-row" aria-label="נקודות אמון">
             <span class="trust-chip">קרקע פרטית בטאבו</span>
             <span class="trust-chip">החל מ-159,000 ₪</span>
@@ -131,7 +136,7 @@
           <div class="field"><label for="hero-name">שם מלא</label><input id="hero-name" name="name" type="text" autocomplete="name" required></div>
           <div class="field"><label for="hero-phone">טלפון</label><input id="hero-phone" name="phone" type="tel" autocomplete="tel" required></div>
           <div class="field"><label for="hero-email">אימייל</label><input id="hero-email" name="email" type="email" autocomplete="email"></div>
-          <div class="field"><label for="hero-gate">האם יש ברשותך הון עצמי של 159,000 ₪?</label><select id="hero-gate" name="equity_status" data-gate required><option value="">בחרו תשובה</option><option value="no">לא</option><option value="yes">כן</option><option value="finance">אין ברשותי אך מעוניין במימון מהבנק (בשעבוד נכס אחר)</option></select></div>
+          <div class="field"><label for="hero-gate">האם יש ברשותך הון עצמי של 159,000 ₪? (יש אפשרות מימון מהבנק)</label><select id="hero-gate" name="equity_status" data-gate required><option value="">בחרו תשובה</option><option value="no">לא</option><option value="yes">כן</option><option value="finance">אין ברשותי אך מעוניין במימון מהבנק (בשעבוד נכס אחר)</option></select></div>
           <div class="gate-message" data-gate-message></div>
           <button class="btn btn-primary" type="submit" data-submit disabled>שלחו לי את פרטי הפרויקט &gt;</button>
           <div class="form-message">תודה, הפרטים נשלחים...</div>
@@ -143,8 +148,8 @@
 
     <section class="stats" aria-label="נתוני הפרויקט">
       <div class="container stats-grid">
-        <div class="card stat animate-on-scroll"><strong>159,000 ₪</strong><span>מחיר כניסה החל מ-</span></div>
-        <div class="card stat animate-on-scroll"><strong>1.6 מ׳ ₪</strong><span>פוטנציאל לפי תרחיש שמאי</span></div>
+        <div class="card stat animate-on-scroll"><strong>159,000 ₪</strong><span>מחיר הקרקע היום</span></div>
+        <div class="card stat animate-on-scroll"><strong>1.6 מ׳ ₪</strong><span>מחיר הקרקע בתרחיש הפשרה</span></div>
         <div class="card stat animate-on-scroll"><strong>15,700</strong><span>יח״ד בתוכנית המתאר</span></div>
         <div class="card stat animate-on-scroll"><strong>טאבו</strong><span>קרקע פרטית רשומה</span></div>
       </div>
@@ -170,7 +175,7 @@
         <h2 class="title">מחיר קרקע של היום, פוטנציאל של אחרי הפשרה</h2>
         <p class="lead">הפער בין מחיר הכניסה לבין תרחיש השווי העתידי נובע מהשלב התכנוני: היום מדובר בקרקע חקלאית שאינה זמינה לבנייה, והפוטנציאל מבוסס על תרחיש הפשרה עתידי לפי דוח שמאי תקן 22.</p>
         <div class="compare">
-          <div class="compare-card animate-on-scroll"><b>159,000 ₪</b><span>מחיר כניסה נגיש היום</span></div>
+          <div class="compare-card animate-on-scroll"><b>159,000 ₪</b><span>מחיר הקרקע היום</span></div>
           <div class="compare-arrow" aria-hidden="true">←</div>
           <div class="compare-card animate-on-scroll"><b>1.6 מ׳ ₪</b><span>פוטנציאל בתרחיש הפשרה עתידי</span></div>
         </div>
@@ -228,7 +233,7 @@
           <div class="field"><label for="bottom-name">שם מלא</label><input id="bottom-name" name="name" type="text" autocomplete="name" required></div>
           <div class="field"><label for="bottom-phone">טלפון</label><input id="bottom-phone" name="phone" type="tel" autocomplete="tel" required></div>
           <div class="field"><label for="bottom-email">אימייל</label><input id="bottom-email" name="email" type="email" autocomplete="email"></div>
-          <div class="field"><label for="bottom-gate">האם יש ברשותך הון עצמי של 159,000 ₪?</label><select id="bottom-gate" name="equity_status" data-gate required><option value="">בחרו תשובה</option><option value="no">לא</option><option value="yes">כן</option><option value="finance">אין ברשותי אך מעוניין במימון מהבנק (בשעבוד נכס אחר)</option></select></div>
+          <div class="field"><label for="bottom-gate">האם יש ברשותך הון עצמי של 159,000 ₪? (יש אפשרות מימון מהבנק)</label><select id="bottom-gate" name="equity_status" data-gate required><option value="">בחרו תשובה</option><option value="no">לא</option><option value="yes">כן</option><option value="finance">אין ברשותי אך מעוניין במימון מהבנק (בשעבוד נכס אחר)</option></select></div>
           <div class="gate-message" data-gate-message></div>
           <button class="btn btn-primary" type="submit" data-submit disabled>אני רוצה לשמוע עוד!</button>
           <div class="form-message">תודה, הפרטים נשלחים...</div>
